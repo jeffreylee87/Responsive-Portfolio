@@ -216,22 +216,27 @@ input[type=submit] {
   border: 0 none;
 }
 
-/* index.html media query */
+/* Media Queries for All!!! */
 
 @media screen and (max-width: 980px) {
   
   div.indexPg { 
+
     width: 680px;
     margin-left: 20px;
 
   }
 
   a.indexLogo {
+
     margin-left: 20px;
+
   }
 
   nav.indexNav {
+
     margin-right: 20px;
+
   }
 
   
@@ -240,47 +245,51 @@ input[type=submit] {
 
 @media screen and (max-width: 768px) {
 
-  
   div.indexPg { 
+
     width: 600px;
     margin-left: 20px;
 
   }
 
   nav.indexNav {
+
     margin-left: 10px;
     margin-right: 30px;
+
   } 
 
   div.indexCon{
+
     margin-left: 0;
+
   } 
 
     body.htmlBd {
+
       padding-right: 10px;
+      
     }
   }
 
  @media screen and (max-width: 640px) {
     
     div.indexPg { 
+
       width: 360px;
       
-  
     }
   
     a.indexLogo {
+
       margin-left: 18%;
+
     }
+
     nav.indexNav {
+
       margin-right: 19%;
       
     } 
-  
-    div.indexCon{
-      /* margin-left: 16%; */
-      /* margin-right: 14%; */
-    } 
-  
 
 }
